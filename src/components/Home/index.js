@@ -5,12 +5,13 @@ import AnimatedLetters from '../AnimatedLetters'
 import LogoTitle from '../../assets/images/logo-s.png'
 import Logo from './Logo'
 import './index.scss'
+import LogoS from "../../assets/images/logo-s.png";
 
 
 const Home = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
 
-  const nameArray = ['R', 'i', 's', 'h', 'a', 'b', 'h']
+  const nameArray = ['a', 'k', 's', 'h', 'a', 'm']
   const jobArray = [
     'W',
     'e',
@@ -65,7 +66,10 @@ const Home = () => {
             CONTACT ME
           </Link>
         </div>
-        <Logo />
+        <div className='right'>
+            <img src={LogoS} alt='logo'></img>
+        </div>
+        
       </div>
 
       <Loader type="pacman" />

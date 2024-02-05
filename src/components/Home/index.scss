@@ -1,4 +1,19 @@
 .home-page{
+    display: flex;
+    flex-direction: row;
+    .right{
+      img{
+        float: right;
+    width: 330px;
+    height: auto;
+    transform: rotateZ(340deg);
+    position: absolute;
+    right: 0;
+    margin-right: 200px;
+    animation: fadeIn 1s 1s;
+      }
+      
+    }
     .text-zone{
         position: absolute;
         left: 10%;
